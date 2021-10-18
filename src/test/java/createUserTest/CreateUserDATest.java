@@ -12,10 +12,12 @@ import exceptions.AlreadyTakenEMailException;
 import exceptions.NotValidEmailException;
 import exceptions.NullParameterException;
 import exceptions.UserAlreadyTakenException;
+import utility.TestUtilityDataAccess;
 
 class CreateUserDATest {
 	
-	static DataAccess sut = new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));;
+	static DataAccess sut = new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));
+	static TestUtilityDataAccess testDA = new TestUtilityDataAccess();
 
 
 	@Test
@@ -41,12 +43,7 @@ class CreateUserDATest {
 		String usrname="Unai";
 		String passw="123456789ABC";
 		String eMail="unasiheras@ehu.eus";
-		User usr=null;
-		try {
-			usr = sut.createUser(usrname, passw, eMail);
-		} catch (Exception e) {
-			fail("Something went wrong");
-		} 
+		User usr = testDA.createUser(usrname, passw, eMail);
 		
 		assertThrows(UserAlreadyTakenException.class, () -> sut.createUser(usrname, passw, eMail));
 		sut.removeUser(usr);
@@ -88,13 +85,8 @@ class CreateUserDATest {
 		String usrname="Unai";
 		String passw="123456789ABC";
 		String eMail="unasiheras@ehu.eus";
-		User usr=null;
-		try {
-			usr = sut.createUser(usrname, passw, eMail);
-		} catch (Exception e) {
-			fail("Something went wrong");
-		} 
-		
+		User usr = testDA.createUser(usrname, passw, eMail);
+
 		assertThrows(AlreadyTakenEMailException.class, () -> sut.createUser("Imanol", passw, eMail));
 		sut.removeUser(usr);
 

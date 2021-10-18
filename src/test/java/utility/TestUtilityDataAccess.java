@@ -14,6 +14,11 @@ import javax.persistence.TypedQuery;
 
 import configuration.ConfigXML;
 import domain.Event;
+import domain.User;
+import exceptions.AlreadyTakenEMailException;
+import exceptions.NotValidEmailException;
+import exceptions.NullParameterException;
+import exceptions.UserAlreadyTakenException;
 
 public class TestUtilityDataAccess {
 	protected  EntityManager  db;
@@ -100,6 +105,16 @@ public class TestUtilityDataAccess {
 			Event ev = db.find(Event.class, event.getEventNumber());
 			return ev.doesQuestionExist(question);
 			
+		}
+		
+		public User createUser(String username, String password, String eMail) {
+
+			User nU = new User(username, password, eMail);
+			db.getTransaction().begin();
+			db.persist(nU);
+			db.getTransaction().commit();
+
+			return nU;
 		}
 }
 
