@@ -1,0 +1,190 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-03 16:54:42 #1 store] 
+Database 'C:\Users\Unai Heras\git\BetAndRuin\Bets\bets.temp' has been recovered (tr. 57-66)
+
+[2021-10-03 16:54:42 #2 store] 
+Database 'C:\Users\Unai Heras\git\BetAndRuin\Bets\bets.temp' is opened by 6196@UnaiHeras
+
+[2021-10-03 16:54:42 #3 store] 
+Configuration path: ?
+
+[2021-10-03 16:54:42 #4 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-03 16:54:42 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-03 16:54:42 #6 type] 
+Type domain.User is not enhanced.
+
+[2021-10-03 16:54:42 #7 type] 
+Type domain.Wallet is not enhanced.
+
+[2021-10-03 16:54:42 #8 type] 
+Type domain.Bet is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-03 16:57:29 #1 store] 
+Database 'C:\Users\Unai Heras\git\BetAndRuin\Bets\bets.temp' has been recovered (tr. 67-67)
+
+[2021-10-03 16:57:29 #2 store] 
+Database 'C:\Users\Unai Heras\git\BetAndRuin\Bets\bets.temp' is opened by 10484@UnaiHeras
+
+[2021-10-03 16:57:29 #3 store] 
+Configuration path: ?
+
+[2021-10-03 16:57:29 #4 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-03 16:57:29 #5 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-03 16:57:29 #6 type] 
+Type domain.User is not enhanced.
+
+[2021-10-03 16:57:29 #7 type] 
+Type domain.Wallet is not enhanced.
+
+[2021-10-03 16:57:29 #8 type] 
+Type domain.Bet is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-03 16:59:57 #1 store] 
+Database 'C:\Users\Unai Heras\git\BetAndRuin\Bets\bets.temp' is opened by 12264@UnaiHeras
+
+[2021-10-03 16:59:57 #2 store] 
+Configuration path: ?
+
+[2021-10-03 16:59:57 #3 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-03 16:59:57 #4 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-03 16:59:57 #5 type] 
+Type domain.User is not enhanced.
+
+[2021-10-03 16:59:57 #6 type] 
+Type domain.Wallet is not enhanced.
+
+[2021-10-03 16:59:57 #7 type] 
+Type domain.Bet is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-03 17:02:41 #1 store] 
+Database 'C:\Users\Unai Heras\git\BetAndRuin\Bets\bets.temp' is opened by 3584@UnaiHeras
+
+[2021-10-03 17:02:41 #2 store] 
+Configuration path: ?
+
+[2021-10-03 17:02:41 #3 type] 
+Type domain.User is not enhanced.
+
+[2021-10-03 17:02:41 #4 type] 
+Type domain.Wallet is not enhanced.
+
+[2021-10-03 17:02:41 #5 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-03 17:02:41 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-03 17:02:41 #7 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-03 17:09:18 #1 store] 
+Database 'C:\Users\Unai Heras\git\BetAndRuin\Bets\bets.temp' is opened by 3468@UnaiHeras
+
+[2021-10-03 17:09:18 #2 store] 
+Configuration path: ?
+
+[2021-10-03 17:09:18 #3 type] 
+Type domain.User is not enhanced.
+
+[2021-10-03 17:09:18 #4 type] 
+Type domain.Wallet is not enhanced.
+
+[2021-10-03 17:09:18 #5 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-03 17:09:18 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-03 17:09:18 #7 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-03 17:11:36 #1 store] 
+Database 'C:\Users\Unai Heras\git\BetAndRuin\Bets\bets.temp' is opened by 7668@UnaiHeras
+
+[2021-10-03 17:11:36 #2 store] 
+Configuration path: ?
+
+[2021-10-03 17:11:36 #3 type] 
+Type domain.User is not enhanced.
+
+[2021-10-03 17:11:36 #4 type] 
+Type domain.Wallet is not enhanced.
+
+[2021-10-03 17:11:36 #5 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-03 17:11:36 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-03 17:11:37 #7 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-03 17:22:30 #1 store] 
+Database 'C:\Users\Unai Heras\git\BetAndRuin\Bets\bets.temp' is opened by 10840@UnaiHeras
+
+[2021-10-03 17:22:30 #2 store] 
+Configuration path: ?
+
+[2021-10-03 17:22:30 #3 type] 
+Type domain.User is not enhanced.
+
+[2021-10-03 17:22:30 #4 type] 
+Type domain.Wallet is not enhanced.
+
+[2021-10-03 17:22:30 #5 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-03 17:22:30 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-03 17:22:30 #7 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-03 20:09:03 #1 store] 
+Database 'C:\Users\Unai Heras\git\BetAndRuin\Bets\bets.temp' is opened by 1868@UnaiHeras
+
+[2021-10-03 20:09:03 #2 store] 
+Configuration path: ?
+
+[2021-10-03 20:09:03 #3 type] 
+Type domain.User is not enhanced.
+
+[2021-10-03 20:09:04 #4 type] 
+Type domain.Wallet is not enhanced.
+
+[2021-10-03 20:09:04 #5 type] 
+Type domain.Bet is not enhanced.
+
+[2021-10-03 20:09:04 #6 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-03 20:09:04 #7 type] 
+Type domain.Event is not enhanced.
+
