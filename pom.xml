@@ -52,6 +52,7 @@
                         <include>CreateQuestionBLMockTest.java</include>
                         <include>CreateQuestionBLTest.java</include>
                         <include>CreateQuestionDATest.java</include>
+                        <include>CreateUserDA2Test.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>

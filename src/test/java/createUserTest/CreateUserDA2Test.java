@@ -6,7 +6,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import configuration.ConfigXML;
-import dataAccess.DataAccess;
+import dataAccess.DataAccessHeras2;
 import domain.User;
 import exceptions.AlreadyTakenEMailException;
 import exceptions.NotValidEmailException;
@@ -14,9 +14,9 @@ import exceptions.NullParameterException;
 import exceptions.UserAlreadyTakenException;
 import utility.TestUtilityDataAccess;
 
-class CreateUserDATest {
+class CreateUserDA2Test {
 	
-	static DataAccess sut = new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));
+	static DataAccessHeras2 sut = new DataAccessHeras2(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));
 	static TestUtilityDataAccess testDA = new TestUtilityDataAccess();
 
 
