@@ -233,7 +233,7 @@ public class DataAccess  {
 	
 	public User getUserWithUsernamePassword(String username, String password){
 		User ret;
-		List<User> checkList = db.createQuery("SELECT u FROM User u WHERE u.username = \"" + username + "\" and u.password = \"" + password + "\"", User.class).getResultList();
+		List<User> checkList = db.createQuery("SELECT u FROM User u WHERE u.username = '" + username + "' and u.password = '" + password + "'", User.class).getResultList();
 		try {
 			ret = checkList.get(0);
 		}
